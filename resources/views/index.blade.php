@@ -1,8 +1,7 @@
-
 @extends('layouts.app')
 
 @section('content')
-    <div class="background-image grid grid-cols-1 m-auto">
+    {{-- <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
@@ -97,5 +96,27 @@
         <div>
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
+    </div> --}}
+    {{-- <div class="flex items-center justify-between">
+    <img src="images/homebg.png" class="absolute right-0 top-0" alt="">
+</div>  --}}
+<div class=" relative grid grid-cols-1 m-auto">
+ 
+        <img src="images/bgimg.jpg" alt="">
+ 
+    <div class=" absolute grid grid-cols-3 gap-4">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
+            <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                Do you want to become a developer?
+            </h1>
+            <a 
+                href="/blog"
+                class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                Read More
+            </a>
+        </div>
+        i am happy
     </div>
+    </div>
+</div>
 @endsection
