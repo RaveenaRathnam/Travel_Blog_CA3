@@ -100,11 +100,14 @@
     {{-- <div class="flex items-center justify-between">
     <img src="images/homebg.png" class="absolute right-0 top-0" alt="">
 </div>  --}}
-<div class=" relative grid grid-cols-1 m-auto">
+
+
+
+{{-- <div class=" relative grid grid-cols-1 m-auto">
  
-        <img src="images/bgimg.jpg" alt="">
+    <img src="images/bgimg.jpg" alt="">
  
-    <div class=" absolute grid grid-cols-3 gap-4">
+    <div class=" absolute  bottom-0 left-0">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
             <h1 class="mt-80 sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
                 Do you want to travel,enjoy and live a new and full life?
@@ -118,5 +121,51 @@
         i am happy
     </div>
     </div>
+</div> --}}
+
+{{-- <img src="images/bgimg.jpg" alt=""> --}}
+<!-- Pin to bottom left corner -->
+{{-- <div class=" relative h-auto w-100%">
+    <img src="images/bgimg.jpg" class="h-50 w-100%" alt="">
+    <div class="absolute bottom-0 left-0 h-50 w-50"> 
+        <h1 class="mt-80 sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+            Do you want to travel,enjoy and live a new and full life?
+        </h1>
+        <a 
+            href="/blog"
+            class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+            Find out more
+        </a>
+    </div>
+  </div> --}}
+  <div class="background-image grid grid-cols-1 m-auto">
+    <div class="flex text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
+            <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                Do you want to become a developer?
+            </h1>
+            <a 
+                href="/blog"
+                class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                Read More
+            </a>
+        </div> 
+        {{-- <div class="line line-1">
+            <div class="wave wave1" style="background-image: url('/images/1.png')"></div>
+          </div> 
+          <div class="line line-2">
+            <div class="wave wave2" style="background-image: url('/images/2.png')"></div>
+          </div> 
+          <div class="line line-3">
+            <div class="wave wave3" style="background-image: url('/images/3.png')"></div>
+          </div>   --}}
+           
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+            
+    </div>
+   
 </div>
 @endsection
