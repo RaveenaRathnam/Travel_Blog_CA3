@@ -97,75 +97,146 @@
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
     </div> --}}
-    {{-- <div class="flex items-center justify-between">
-    <img src="images/homebg.png" class="absolute right-0 top-0" alt="">
-</div>  --}}
+     
 
-
-
-{{-- <div class=" relative grid grid-cols-1 m-auto">
- 
-    <img src="images/bgimg.jpg" alt="">
- 
-    <div class=" absolute  bottom-0 left-0">
-        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-            <h1 class="mt-80 sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                Do you want to travel,enjoy and live a new and full life?
-            </h1>
-            <a 
-                href="/blog"
-                class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                Find out more
-            </a>
-        </div>
-        i am happy
-    </div>
-    </div>
-</div> --}}
-
-{{-- <img src="images/bgimg.jpg" alt=""> --}}
-<!-- Pin to bottom left corner -->
-{{-- <div class=" relative h-auto w-100%">
-    <img src="images/bgimg.jpg" class="h-50 w-100%" alt="">
-    <div class="absolute bottom-0 left-0 h-50 w-50"> 
-        <h1 class="mt-80 sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-            Do you want to travel,enjoy and live a new and full life?
-        </h1>
-        <a 
-            href="/blog"
-            class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-            Find out more
-        </a>
-    </div>
-  </div> --}}
   <div class="background-image grid grid-cols-1 m-auto">
     <div class="flex text-gray-100 pt-10">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-            <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                Do you want to become a developer?
+            <h1 class="sm:text-white text-4xl uppercase font-bold text-shadow-md pb-32">
+                Embark on an Odyssey with OdysseyX: Explore, Experience, and Expand Your Horizons
             </h1>
             <a 
                 href="/blog"
                 class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                Read More
+                Discover More
             </a>
         </div> 
-        {{-- <div class="line line-1">
-            <div class="wave wave1" style="background-image: url('/images/1.png')"></div>
-          </div> 
-          <div class="line line-2">
-            <div class="wave wave2" style="background-image: url('/images/2.png')"></div>
-          </div> 
-          <div class="line line-3">
-            <div class="wave wave3" style="background-image: url('/images/3.png')"></div>
-          </div>   --}}
-           
             <div class="wave wave1"></div>
             <div class="wave wave2"></div>
             <div class="wave wave3"></div>
             <div class="wave wave4"></div>
-            
     </div>
-   
 </div>
+<div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    <div>
+        <img src="/images/homebg.png" width="700" alt="">
+    </div>
+
+    <div class="m-auto sm:m-auto text-left w-4/5 block">
+        <h2 class="text-3xl font-extrabold text-gray-600">
+            Greet The World, 
+            Meet Yourself.
+        </h2>
+        
+        <p class="py-8 text-gray-500 text-s">
+            It’s not about bucket lists or insta-pics. While there are endless benefits to exploring this great big world, it’s the inward journey that matters most.
+
+How can you push yourself to the edge of your comfort zone?How can you face and even embrace uncertainty? 
+
+When you step outside of the bubble you were born in, you’re presented with the opportunity to go deeper and further.
+
+As someone who's walked in your shoes, I'm arming you with stunning photos, expert advice, and essential resources that will help confidently take charge of your journey. I've got your back!
+        </p>
+
+        <p class="font-extrabold text-gray-600 text-s pb-9">
+            ULTIMATELY, THAT’S WHAT TRAVEL IS ABOUT.        </p>
+
+        <a 
+            href="/blog"
+            class="uppercase  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+            Find Out More
+        </a>
+    </div>
+</div>
+
+<div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    
+
+    <div class="m-auto sm:m-auto text-left w-4/5 block">
+        <h2 class="text-3xl font-extrabold text-gray-600">
+            Greet The World, 
+            Meet Yourself.
+        </h2>
+        
+        <p class="py-8 text-gray-500 text-s">
+            It’s not about bucket lists or insta-pics. While there are endless benefits to exploring this great big world, it’s the inward journey that matters most.
+
+How can you push yourself to the edge of your comfort zone?How can you face and even embrace uncertainty? 
+
+When you step outside of the bubble you were born in, you’re presented with the opportunity to go deeper and further.
+
+As someone who's walked in your shoes, I'm arming you with stunning photos, expert advice, and essential resources that will help confidently take charge of your journey. I've got your back!
+        </p>
+
+        <p class="font-extrabold text-gray-600 text-s pb-9">
+            ULTIMATELY, THAT’S WHAT TRAVEL IS ABOUT.        </p>
+
+        <a 
+            href="/blog"
+            class="uppercase  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+            Find Out More
+        </a>
+    </div>
+    <div>
+        <img src="/images/homebg.png" width="700" alt="">
+    </div>
+</div>
+
+
+
+<div class="text-center p-15 bg-black text-white">
+    <h2 class="text-2xl pb-5 text-l"> 
+        I'm an expert in...
+    </h2>
+
+    <span class="font-extrabold block text-4xl py-1">
+        Ux Design
+    </span>
+    <span class="font-extrabold block text-4xl py-1">
+        Project Management
+    </span>
+    <span class="font-extrabold block text-4xl py-1">
+        Digital Strategy
+    </span>
+    <span class="font-extrabold block text-4xl py-1">
+        Backend Development
+    </span>
+</div>
+
+<div class="text-center py-15">
+    <span class="uppercase text-s text-gray-400">
+        Blog
+    </span>
+
+    <h2 class="text-4xl font-bold py-10">
+        Recent Posts
+    </h2>
+
+    <p class="m-auto w-4/5 text-gray-500">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+    </p>
+</div>
+
+<div class="sm:grid grid-cols-2 w-4/5 m-auto">
+    <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+            <span class="uppercase text-xs">
+                PHP
+            </span>
+
+            <h3 class="text-xl font-bold py-10">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+            </h3>
+
+            <a 
+                href=""
+                class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                Find Out More
+            </a>
+        </div>
+    </div>
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+    </div>
+</div> 
 @endsection
