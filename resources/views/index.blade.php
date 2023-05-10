@@ -106,13 +106,13 @@
  
     <div class=" absolute grid grid-cols-3 gap-4">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-            <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                Do you want to become a developer?
+            <h1 class="mt-80 sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                Do you want to travel,enjoy and live a new and full life?
             </h1>
             <a 
                 href="/blog"
                 class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                Read More
+                Find out more
             </a>
         </div>
         i am happy
