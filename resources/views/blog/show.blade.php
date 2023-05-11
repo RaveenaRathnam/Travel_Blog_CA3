@@ -5,6 +5,9 @@
     <div class="py-15">
         <h1 class="text-6xl">
             {{ $post->title }}
+            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+                {{ $post->info }}
+            </p>
         </h1>
     </div>
 </div>
@@ -19,4 +22,4 @@
     </p>
 </div>
 
-@endsection 
+@endsection
