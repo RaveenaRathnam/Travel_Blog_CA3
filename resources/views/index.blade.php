@@ -195,6 +195,7 @@ As someone who's walked in your shoes, I'm arming you with stunning photos, expe
      
 </div>
 
+
 <div class="text-center  py-15">
     {{-- <span class="uppercase text-s text-gray-400">
         Blog
