@@ -4,7 +4,7 @@
 
 @import "tailwindcss/utilities";
 
-.background-image 
+.background-image
 {
     background-image: url('https://bidroom.com/blog/wp-content/uploads/2018/11/Untitled-design-51.png');
     background-position: center center;
@@ -13,3 +13,4 @@
     background-size: cover;
     height: 600px;
 }
+
