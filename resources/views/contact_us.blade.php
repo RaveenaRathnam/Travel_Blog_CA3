@@ -55,6 +55,25 @@
                   m-0
                   focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
                     placeholder="Name">
+                    @error('name')
+                    <div
+                    class="mb-3 inline-flex w-full items-center rounded-lg bg-red-300 px-6 py-5 text-base text-danger-700"
+                    role="alert">
+                    <span class="mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="h-5 w-5">
+                        <path
+                          fill-rule="evenodd"
+                          d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                          clip-rule="evenodd" />
+                      </svg>
+                    </span>
+                    {{ $message}}
+                  </div>
+                    @enderror
                 </div>
                 <div class="form-group mb-6">
                   <input type="email" name="email" class="form-control block
@@ -72,9 +91,28 @@
                   m-0
                   focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
                     placeholder="Email address">
+                    @error('email')
+                    <div
+                    class="mb-3 inline-flex w-full items-center rounded-lg bg-red-300 px-6 py-5 text-base text-danger-700"
+                    role="alert">
+                    <span class="mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="h-5 w-5">
+                        <path
+                          fill-rule="evenodd"
+                          d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                          clip-rule="evenodd" />
+                      </svg>
+                    </span>
+                    {{ $message}}
+                  </div>
+                    @enderror
                 </div>
                 <div class="form-group mb-6">
-                    <input type="text" name="phone" class="form-control block
+                    <input type="tel" name="phone" class="form-control block
                     w-full
                     px-3
                     py-1.5
@@ -89,6 +127,25 @@
                     m-0
                     focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
                       placeholder="Phone">
+                      @error('phone')
+                      <div
+                      class="mb-3 inline-flex w-full items-center rounded-lg  bg-red-300 px-6 py-5 text-base text-danger-700"
+                      role="alert">
+                      <span class="mr-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="h-5 w-5">
+                          <path
+                            fill-rule="evenodd"
+                            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                            clip-rule="evenodd" />
+                        </svg>
+                      </span>
+                      {{ $message}}
+                    </div>
+                      @enderror
                   </div>
                 <div class="form-group mb-6">
                   <textarea name="msg" class="
@@ -108,14 +165,27 @@
                   m-0
                   focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                 " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+                @error('msg')
+                <div
+                class="mb-3 inline-flex w-full items-center rounded-lg bg-red-300 px-6 py-5 text-base text-danger-700"
+                role="alert">
+                <span class="mr-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+                {{ $message}}
+              </div>
+                @enderror
                 </div>
-                <div class="form-group form-check text-center mb-6">
-                  <input type="checkbox"
-                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                    id="exampleCheck87" checked>
-                  <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this
-                    message</label>
-                </div>
+                
                 <button type="submit" class="
                 w-full
                 px-6
