@@ -8,5 +8,9 @@ use Mail;
 
 class ContactController extends Controller
 {
-     
+    //
+    public function contact(){
+        return view('contact_us');
+    }
+    
 }
