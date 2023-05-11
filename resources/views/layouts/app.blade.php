@@ -20,13 +20,15 @@
         <header class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-xl font-normal text-white no-underline hover:font-bold" >
+                    <img src="/images/logo.png" class="absolute left-0 top-0 h-16 w-16 "alt="">
+                    <a href="{{ url('/') }}" class=" ml-12 text-xl font-normal text-white  no-underline hover:font-bold " >
                         {{ config('app.name', 'Odysseyx') }}
                     </a>
                 </div>
                 <nav class="space-x-4 text-white text-sm sm:text-base ">
                     <a class="no-underline  font-normal hover:font-bold " href="/">Home</a>
                     <a class="no-underline  font-normal hover:font-bold " href="/blog">Blog</a>
+                    <a class="no-underline  font-normal hover:font-bold " href="/contact_us">Contact Us</a>
                     @guest
                         <a class="no-underline  font-normal hover:font-bold " href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
