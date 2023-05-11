@@ -24,3 +24,5 @@ Auth::routes();
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/contact_us',[ContactController::class,'contact']);
+
+Route::post('/send_message',[ContactController::class,'sendEmail'])->name('contact.send');
