@@ -111,17 +111,20 @@
                 Discover More
             </a>
         </div> 
-            <div class="wave wave1"></div>
-            <div class="wave wave2"></div>
-            <div class="wave wave3"></div>
-            <div class="wave wave4"></div>
     </div>
+    <div class="mt-5 wave wave1"></div>
+            <div class="mt-5 wave wave2"></div>
+            <div class="mt-5 wave wave3"></div>
+            <div class="mt-5 wave wave4"></div>
 </div>
-<div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
-    <div>
-        <img src="/images/homebg.png" width="700" alt="">
-    </div>
 
+<div class="bg-pink-100 sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+      <div class="pl-16">
+    <figure>
+        <img src="/images/p1.jpg" width="700"   alt="">
+        <figcaption> Yay happy days! </figcaption>
+    </figure>
+      </div>
     <div class="m-auto sm:m-auto text-left w-4/5 block">
         <h2 class="text-3xl font-extrabold text-gray-600">
             Greet The World, 
@@ -143,45 +146,36 @@ As someone who's walked in your shoes, I'm arming you with stunning photos, expe
 
         <a 
             href="/blog"
-            class="uppercase  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+            class="uppercase bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
             Find Out More
         </a>
     </div>
 </div>
 
-<div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+ 
+<div class="bg-indigo-100 sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
     
+  <div class="m-auto sm:m-auto text-left w-4/5 block">
+      <h2 class="text-3xl font-extrabold text-gray-600">
+        Traveling opens up a world of possibilities, 
+        where new experiences, cultures, and landscapes await. 
+      </h2>
+      
+      <p class="py-8 text-gray-500 text-s">
+        It broadens our horizons, challenges us to step out of our comfort zones, and ignites a sense of adventure within us. Through this travel blog, we aim to inspire and guide fellow travelers in their pursuit of wanderlust. From hidden gems and breathtaking destinations to insightful tips and personal anecdotes, we strive to create a platform that encapsulates the joy and essence of travel. Join us on this journey of exploration and discovery, as we share stories, recommendations, and practical advice to help you make the most of your travel experiences. Let this blog be your companion, motivating you to embark on new adventures, fostering connections with fellow travelers, and capturing memories that will last a lifetime. 
+      </p>
 
-    <div class="m-auto sm:m-auto text-left w-4/5 block">
-        <h2 class="text-3xl font-extrabold text-gray-600">
-            Greet The World, 
-            Meet Yourself.
-        </h2>
-        
-        <p class="py-8 text-gray-500 text-s">
-            It’s not about bucket lists or insta-pics. While there are endless benefits to exploring this great big world, it’s the inward journey that matters most.
+      <p class="font-extrabold text-gray-600 text-s pb-9">
+        HAPPY TRAVELS! MANY MORE MILES TO GO!      </p>
 
-How can you push yourself to the edge of your comfort zone?How can you face and even embrace uncertainty? 
-
-When you step outside of the bubble you were born in, you’re presented with the opportunity to go deeper and further.
-
-As someone who's walked in your shoes, I'm arming you with stunning photos, expert advice, and essential resources that will help confidently take charge of your journey. I've got your back!
-        </p>
-
-        <p class="font-extrabold text-gray-600 text-s pb-9">
-            ULTIMATELY, THAT’S WHAT TRAVEL IS ABOUT.        </p>
-
-        <a 
-            href="/blog"
-            class="uppercase  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-            Find Out More
-        </a>
-    </div>
-    <div>
-        <img src="/images/homebg.png" width="700" alt="">
-    </div>
+  </div>
+  <div class="pr-16 pt-12">
+    <figure>
+        <img src="/images/p2.jpg" width="700"   alt="">
+        <figcaption class="pl-16"> Lets go! </figcaption>
+    </figure>
+      </div>
 </div>
-
 
 
 <div class="text-center p-15 bg-black text-white">
