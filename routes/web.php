@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AboutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,3 +27,8 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/contact_us',[ContactController::class,'contact']);
 
 Route::post('/send_message',[ContactController::class,'sendEmail'])->name('contact.send');
+
+Route::get('/about',[AboutController::class,'about']);
+
+ 
+
