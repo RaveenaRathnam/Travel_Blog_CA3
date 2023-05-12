@@ -26,3 +26,6 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/contact_us',[ContactController::class,'contact']);
 
 Route::post('/send_message',[ContactController::class,'sendEmail'])->name('contact.send');
+
+Route::get('/about',[AboutController::class,'about'])->name('about');
+
