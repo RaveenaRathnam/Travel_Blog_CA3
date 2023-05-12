@@ -182,7 +182,7 @@ As someone who's walked in your shoes, I'm arming you with stunning photos, expe
 
 <div class="text-center p-15 bg-purple-300 text-white">
     <h2 class="text-3xl text-gray-600 pb-5 text-l"> 
-        "I have a genuine passion...
+        "We have a genuine passion...
     </h2>
 
     <span class="font-extrabold block text-gray-600 text-4xl py-1">
@@ -229,5 +229,63 @@ As someone who's walked in your shoes, I'm arming you with stunning photos, expe
             <img src="/images/p3.jpg" width="700"   alt="">
             
           </div>
+</div> 
+
+<div class="sm:grid pt-8 grid-cols-2 w-4/5 m-auto">
+    <div  >
+            <img src="/images/p4.jpg" width="700"   alt="">
+            
+          </div>
+
+          <div class="flex bg-pink-400 text-gray-100 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <h3 class="text-xl font-bold py-10">
+                    "Dubai luxury travel offers an unparalleled experience, where opulent accommodations, world-class dining, and extravagant shopping merge seamlessly with breathtaking architecture and vibrant cultural experiences."
+                 </h3>
+                <a 
+                    href="/blog/dubai-luxury-travel"
+                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Explore Dubai!
+                </a>
+            </div>
+        </div>
+</div> 
+<div class="sm:grid pt-8 grid-cols-2 w-4/5 m-auto">
+    <div class="flex bg-purple-400 text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+            <h3 class="text-xl font-bold py-10">
+                "South African safaris offer an extraordinary opportunity to witness the raw beauty of the African wilderness, where majestic wildlife roams freely across vast savannahs, creating unforgettable moments of awe and wonder."
+                          </h3>
+            <a 
+                href="/blog/south-africa-safari-adventure"
+                class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                Let's Roar!
+            </a>
+        </div>
+    </div>
+    <div  >
+            <img src="/images/p5.jpg" width="700"   alt="">
+            
+          </div>
+</div> 
+<div class="sm:grid pt-8 grid-cols-2 w-4/5 m-auto">
+   
+    <div  >
+            <img src="/images/p6.jpg" width="700"   alt="">
+            
+          </div>
+
+          <div class="flex bg-blue-400 text-gray-100 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <h3 class="text-xl font-bold py-10">
+                    "Maui beaches captivate with their pristine shores, turquoise waters, and breathtaking vistas, offering a tropical paradise for sun-seekers and water enthusiasts alike."
+                                 </h3>
+                <a 
+                    href="/blog/maui-s-best-beaches"
+                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Enter Paradise!
+                </a>
+            </div>
+        </div>
 </div> 
 @endsection
