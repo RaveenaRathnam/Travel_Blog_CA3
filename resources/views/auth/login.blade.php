@@ -18,7 +18,7 @@
              
                     <section class="break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
         
-                        <header class="font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
+                        <header class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
                             {{ __('Login') }}
                         </header>
         
