@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class PostsController extends Controller
 {
- 
+
     public function __construct()
     {
         $this->middleware('auth', ['except' => ['index', 'show']]);
@@ -128,5 +128,30 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
+//
+//    public function like(Request $request)
+//    {
+//        $postId = $request->input('post_id');
+//        $post = Post::find($postId);
+//        $post->increment('likes_count');
+//        return redirect()->back();
+//    }
+//
+//    public function comment($id)
+//    {
+//        $post = Post::find($id);
+//        return view('comment', compact('post'));
+//    }
+//
+//    public function storeComment(Request $request)
+//    {
+//        $postId = $request->input('post_id');
+//        $commentContent = $request->input('content');
+//        $comment = new Comment;
+//        $comment->post_id = $postId;
+//        $comment->content = $commentContent;
+//        $comment->save();
+//        return redirect()->back();
+//    }
 }
 

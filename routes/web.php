@@ -19,7 +19,8 @@ use App\Http\Controllers\AboutController;
 Route::get('/', [PagesController::class, 'index']);
 
 Route::resource('/blog', PostsController::class);
-
+//Comments
+//Route::post('comments/{post_id}', ['uses'=>\App\Http\Controllers\CommentController::class,'as'=>'comments.store']);
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -30,5 +31,9 @@ Route::post('/send_message',[ContactController::class,'sendEmail'])->name('conta
 
 Route::get('/about',[AboutController::class,'about']);
 
- 
+
+
+Route::post('comments/{post_id}', [\App\Http\Controllers\CommentController::class, 'store'])->name('comments.store');
+
+
 

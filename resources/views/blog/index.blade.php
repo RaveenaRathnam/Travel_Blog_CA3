@@ -19,7 +19,7 @@
 
 @if (Auth::check())
     <div class="pt-15 w-4/5 m-auto">
-        <a 
+        <a
             href="/blog/create"
             class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
             Create post
@@ -48,10 +48,16 @@
             <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
+{{--            <form action="{{ route('like.post') }}" method="POST">--}}
+{{--                @csrf--}}
+{{--                <input type="hidden" name="post_id" value="{{ $post->id }}">--}}
+{{--                <button type="submit">Like</button>--}}
+{{--            </form>--}}
+{{--            <a href="{{ route('comment.post', ['id' => $post->id]) }}">Comment</a>--}}
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
-                    <a 
+                    <a
                         href="/blog/{{ $post->slug }}/edit"
                         class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
                         Edit
@@ -59,7 +65,7 @@
                 </span>
 
                 <span class="float-right">
-                     <form 
+                     <form
                         action="/blog/{{ $post->slug }}"
                         method="POST">
                         @csrf
@@ -75,7 +81,7 @@
                 </span>
             @endif
         </div>
-    </div>    
+    </div>
 @endforeach
 
 @endsection
