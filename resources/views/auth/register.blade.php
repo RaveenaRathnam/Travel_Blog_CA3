@@ -21,9 +21,7 @@
                <section class="break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
 
                 <header class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white  py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
-                    <div class="ml-32">
                     {{ __('Register') }}
-                    </div>
                 </header>
 
                 <form class="w-full px-6 space-y-6 sm:px-10 sm:space-y-8" method="POST"
