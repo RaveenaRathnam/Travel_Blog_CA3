@@ -295,7 +295,26 @@
           </div>
         </div>
       </div>
+       <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800">
+    <style>
+      .map-container-2 {
+        height: 500px;
+      }
+    </style>
+     
+          <div class="map-container-2 w-full">
+            <iframe src="https://maps.google.com/maps?q=dundalk&t=&z=13&ie=UTF8&iwloc=&output=embed" class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0" allowfullscreen></iframe>
+          </div>
+         
+  </section>
+  <!-- Section: Design Block -->
   
+</div>
+<!-- Container for demo purpose -->
     </section>
     <!-- Section: Design Block -->
   
