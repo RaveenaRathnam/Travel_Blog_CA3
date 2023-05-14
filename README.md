@@ -60,6 +60,13 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 ```
 
+
+Setup for personal css <br>
+```
+Imported google fonts.
+Imported font awesome icons for the contact page.
+```
+
 Migrate the tables
 ```
 php artisan migrate
