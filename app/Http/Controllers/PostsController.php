@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Post;
 use Cviebrock\EloquentSluggable\Services\SlugService;
 
+
+
 class PostsController extends Controller
 {
 
@@ -18,10 +20,16 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return view('blog.index')
-            ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
+        if($request->search){
+            $posts = Post::where('title', 'like', '%' . $request->search . '%')
+                ->orWhere('description', 'like', '%' . $request->search . '%')->latest()->get();
+        } else{
+            $posts = Post::latest()->get();
+        }
+        return view('blog.index',compact('posts'));
+
     }
 
     /**
