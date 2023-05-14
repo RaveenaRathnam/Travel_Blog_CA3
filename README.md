@@ -2,14 +2,21 @@
 
 This is a simple blog website built with Laravel.
 
-•	Authors: Raveena Rathnam and Kosy Stephanie Ike-Ogoke <br>
-
+•	Authors: Raveena Rathnam Kuppala and Kosy Stephanie Ike-Ogoke <br>
 
 ## Requirements
 •	PHP 7.3 or higher <br>
 •	Node 12.13.0 or higher <br>
 
-## Usage <br>
+## Technologies Used
+• Laravel 8.x
+• Tailwind CSS
+• MySQL
+• HTML
+• CSS
+• JavaScript
+
+## Usage/Installation<br>
 Setting up your development environment on your local machine: <br>
 ```
 git clone git@https://github.com/RaveenaRathnam/Travel_Blog_CA3
@@ -48,14 +55,15 @@ Include to config\app.php at "aliases" area: 'Form' => Collective\Html\FormFacad
                 AND
  'Html' => Collective\Html\HtmlFacade::class,
  ````
+## Features
+•Users can view a list of blog posts, as well as view individual blog posts.
+•Users can leave comments on individual blog posts.
+•Administrators can create, edit, and delete blog posts, as well as moderate comments.
 
 ##  Contributing
 Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
  For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
-
-
-
 
 ## License
 MIT
