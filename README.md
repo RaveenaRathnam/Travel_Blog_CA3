@@ -42,6 +42,19 @@ DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
 ```
 
+Setup your mail credentials in the .env file <br>
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.office365.com
+MAIL_PORT=587
+MAIL_USERNAME=D00251856@student.dkit.ie
+MAIL_PASSWORD=F8SG8GvS@A6SdrM
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=D00251856@student.dkit.ie 
+MAIL_FROM_NAME="${APP_NAME}"
+
+```
+
 Migrate the tables
 ```
 php artisan migrate
