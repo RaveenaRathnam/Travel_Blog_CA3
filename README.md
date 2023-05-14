@@ -13,7 +13,7 @@ This is a simple travel blog website built with Laravel.
 
 ## Technologies Used
 • Laravel 8.x  <br>
-• Tailwind CSS :used to style webpage and make it responsive  <br>  [![Button 1](https://img.shields.io/badge/%22TravelBlog%22-red.svg)](https://example.com/button1"TooltipText")
+• Tailwind CSS :used to style webpage and make it responsive  [![Button 1](https://img.shields.io/badge/%22TravelBlog%22-red.svg)](https://example.com/button1"TooltipText")<br>
 • MySQL : Used to store task,data and user information <br>
 • HTML  : Used to create the user interface. <br>
 • CSS   :Used to create the user interface.<br>
