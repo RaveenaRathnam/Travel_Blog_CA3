@@ -2,7 +2,9 @@
 
 This is a simple travel blog website built with Laravel.
 
-•	Authors: Raveena Rathnam Kuppala and Kosy Stephanie Ike-Ogoke <br>
+##	Authors: 
+•Raveena Rathnam Kuppala and
+•Kosy Stephanie Ike-Ogoke <br>
 
 ## Requirements
 •	PHP 7.3 or higher <br>
@@ -11,11 +13,13 @@ This is a simple travel blog website built with Laravel.
 
 ## Technologies Used
 • Laravel 8.x  <br>
-• Tailwind CSS  <br>
-• MySQL  <br>
-• HTML  <br>
-• CSS  <br>
+• Tailwind CSS :used to style webpage and make it responsive  <br>
+• MySQL : Used to store task,data and user information <br>
+• HTML  : Used to create the user interface. <br>
+• CSS   :Used to create the user interface.<br>
 • JavaScript  <br>
+• College Server:Used to send contact page to emails<br>
+
 
 ## Usage/Installation<br>
 Setting up your development environment on your local machine: <br>
@@ -96,4 +100,4 @@ If you have been given permission to make changes:<br>
 
 
 ## License
-MIT
+This project is licensed under the MIT License. See the LICENSE file for more information.
