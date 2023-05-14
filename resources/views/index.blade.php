@@ -112,12 +112,12 @@
             </a>
         </div> 
     </div>
-    <section>
-            <div class="mt-5 wave wave1"></div>
-            <div class="mt-5 wave wave2"></div>
-            <div class="mt-5 wave wave3"></div>
-            <div class="mt-5 wave wave4"></div>
-    </section>
+     
+            <div class=" wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+ 
 </div>
 
 <div class="bg-pink-100 sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
