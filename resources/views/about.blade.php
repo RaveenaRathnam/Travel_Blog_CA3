@@ -38,7 +38,7 @@
   </div>
 
 
-  <div class="text-center p-15  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
+  <div class="text-center p-15  bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-300 text-white">
     <h2 class="text-3xl pb-5 text-l"> 
         "We are two friends who set out on this journey...
     </h2>

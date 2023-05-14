@@ -6,16 +6,6 @@
 
 .background-image
 {
-<<<<<<<<< Temporary merge branch 1
-    background-image: url('https://bidroom.com/blog/wp-content/uploads/2018/11/Untitled-design-51.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 600px;
-}
-
-=========
   background-image: url('/images/bgimg.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -120,4 +110,4 @@ figure{
     bottom:3px;
     right:-60px;
   }
->>>>>>>>> Temporary merge branch 2
+ 

@@ -1,12 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-<main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10">
-    <div class="flex">
-        <div class="w-full">
-            <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+ 
 
-                <header class="font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
+  <section class="h-auto">
+    <div class="container h-full px-6 py-24">
+      <div
+        class="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
+        <!-- Left column container with background-->
+        <div class="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+            class="w-full"
+            alt="Phone image" />
+        </div>
+  
+        <!-- Right column container with form -->
+        <div class="md:w-8/12 md:mb-20 lg:ml-6 lg:w-5/12 ">
+             
+               <section class="break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+
+                <header class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white  py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
                     {{ __('Register') }}
                 </header>
 
@@ -72,7 +86,7 @@
 
                     <div class="flex flex-wrap">
                         <button type="submit"
-                            class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-blue-500 hover:bg-blue-700 sm:py-4">
+                            class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:bg-blue-700 sm:py-4">
                             {{ __('Register') }}
                         </button>
 
@@ -85,8 +99,9 @@
                     </div>
                 </form>
 
-            </section>
+            </section>     
         </div>
+      </div>
     </div>
-</main>
+  </section>
 @endsection
