@@ -3,7 +3,7 @@
 This is a simple travel blog website built with Laravel.
 
 ##	Authors: 
-•Raveena Rathnam Kuppala and
+•Raveena Rathnam Kuppala and<br>
 •Kosy Stephanie Ike-Ogoke <br>
 
 ## Requirements
