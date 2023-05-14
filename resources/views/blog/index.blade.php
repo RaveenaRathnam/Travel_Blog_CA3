@@ -21,6 +21,7 @@
 </div> --}}
 
 <div class="mb-3">
+    <form action="">
     <div class="relative w-80  mb-4 flex flex-wrap items-stretch" style="margin-left: 470px;">
       <input
         type="search"
@@ -49,6 +50,7 @@
         </svg>
       </button>
     </div>
+</form>
   </div>
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
