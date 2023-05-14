@@ -9,12 +9,12 @@ This is a simple blog website built with Laravel.
 •	Node 12.13.0 or higher <br>
 
 ## Technologies Used
-• Laravel 8.x
-• Tailwind CSS
-• MySQL
-• HTML
-• CSS
-• JavaScript
+• Laravel 8.x  <br>
+• Tailwind CSS  <br>
+• MySQL  <br>
+• HTML  <br>
+• CSS  <br>
+• JavaScript  <br>
 
 ## Usage/Installation<br>
 Setting up your development environment on your local machine: <br>
@@ -56,10 +56,15 @@ Include to config\app.php at "aliases" area: 'Form' => Collective\Html\FormFacad
  'Html' => Collective\Html\HtmlFacade::class,
  ````
 ## Features
-•Users can view a list of blog posts, as well as view individual blog posts.
-•Users can leave comments on individual blog posts.
-•Administrators can create, edit, and delete blog posts, as well as moderate comments.
-
+•Users can view a list of blog posts, as well as view individual blog posts. <br>
+•Users can leave comments on individual blog posts. <br>
+•Administrators can create, edit, and delete blog posts, as well as moderate comments. <br>
+•User authentication: Allow users to sign up, log in, and log out of the blog website.<br>
+•User roles and permissions: Assign roles and permissions to users to control access to certain features and content.<br>
+•Search: Implement a search feature to allow users to search for specific blog posts.<br>
+•Responsive design: Used Tailwind CSS to create a responsive design that looks great on any device.<br>
+•Image uploads: Allow users to upload images to use in their blog posts.<br>
+•Error handling: Handle errors gracefully to prevent crashes and provide users with helpful error messages while trying to contact the owners of the blog.<br>
 ##  Contributing
 Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
  For major changes, please open an issue first to discuss what you would like to change.
