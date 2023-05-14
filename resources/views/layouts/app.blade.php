@@ -11,7 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
@@ -25,7 +25,7 @@
                     <a href="{{ url('/') }}" class=" ml-12 text-xl font-normal text-white  no-underline hover:font-bold " >
                         {{ config('app.name', 'Odysseyx') }}
                     </a>
-                </div>
+                                </div>
                 <nav class="space-x-4 text-white text-sm sm:text-base ">
                     <a class="no-underline  font-normal hover:font-bold " href="/">Home</a>
                     <a class="no-underline  font-normal hover:font-bold " href="/blog">Blog</a>
