@@ -1,6 +1,6 @@
 ## Laravel Travel Blog
 
-This is a simple blog website built with Laravel.
+This is a simple travel blog website built with Laravel.
 
 •	Authors: Raveena Rathnam Kuppala and Kosy Stephanie Ike-Ogoke <br>
 
@@ -79,6 +79,8 @@ Include to config\app.php at "aliases" area: 'Form' => Collective\Html\FormFacad
 •Responsive design: Used Tailwind CSS to create a responsive design that looks great on any device.<br>
 •Image uploads: Allow users to upload images to use in their blog posts.<br>
 •Error handling: Handle errors gracefully to prevent crashes and provide users with helpful error messages while trying to contact the owners of the blog.<br>
+## Project Status
+• Completed but has room for more changes
 
 ##  Contributing
 Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
