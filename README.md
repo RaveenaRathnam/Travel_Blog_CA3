@@ -7,6 +7,7 @@ This is a simple blog website built with Laravel.
 ## Requirements
 •	PHP 7.3 or higher <br>
 •	Node 12.13.0 or higher <br>
+•   Xampp
 
 ## Technologies Used
 • Laravel 8.x  <br>
@@ -81,8 +82,16 @@ Include to config\app.php at "aliases" area: 'Form' => Collective\Html\FormFacad
 
 ##  Contributing
 Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
- For major changes, please open an issue first to discuss what you would like to change.
+For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
+If you have been given permission to make changes:<br>
+
+•Fork this repository.<br>
+•Create a new branch for your changes<br>
+•Make your changes and commit them<br>
+•Push your changes to your fork<br>
+•Create a pull request<br>
+
 
 ## License
 MIT
