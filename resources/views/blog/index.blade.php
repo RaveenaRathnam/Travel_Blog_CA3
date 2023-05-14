@@ -33,7 +33,7 @@
       <!--Search button-->
       <button
         class="relative z-[2] flex items-center rounded-r bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
-        type="button"
+        type="submit"
         id="button-addon1"
         data-te-ripple-init
         data-te-ripple-color="light">
