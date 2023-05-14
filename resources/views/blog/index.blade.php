@@ -53,17 +53,10 @@ $prevColor = $randomColor; // Store the current color as the previous color for 
 @endphp
     <div class="rounded-md mt-8 {{ $randomColor }} sm:grid  grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-<<<<<<< Updated upstream
-
-                <img src="{{ asset('images/' . $post->image_path) }}" alt="">
-
-
-=======
             <figure style="width:400px" class="md:ml-12">
                 <img src="{{ asset('images/' . $post->image_path) }}" alt="">
                 <figcaption class="ml-12">{{ $post->title }}</figcaption>
             </figure>
->>>>>>> Stashed changes
         </div>
         <div class="md: mt-16">
             <h2 class="text-gray-700 font-bold text-5xl pb-4">
