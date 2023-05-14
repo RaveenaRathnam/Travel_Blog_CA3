@@ -1,10 +1,9 @@
-## Laravel 8 Complete Blog
+## Laravel Travel Blog
 
-This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
+This is a simple blog website built with Laravel.
 
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+•	Authors: Raveena Rathnam and Kosy Stephanie Ike-Ogoke <br>
+
 
 ## Requirements
 •	PHP 7.3 or higher <br>
@@ -13,29 +12,25 @@ This repository is linked to [this youtube video](https://www.youtube.com/watch?
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
 ```
-git clone git@github.com:codewithdary/laravel-8-complete-blog.git
-cd laravel-8-complete-blog
-cp .env.example .env
-composer install
-php artisan key:generate
-php artisan cache:clear && php artisan config:clear
-php artisan serve
+git clone git@https://github.com/RaveenaRathnam/Travel_Blog_CA3
+Install dependencies: composer install
+Create a new .env file: cp .env.example .env
+Generate an application key: php artisan key:generate
+Set up your database in the .env file
+Run migrations: php artisan migrate
+Start the development server: php artisan serve
+Usage
+Once you have the development server running, you can visit the website in your browser at http://localhost:8000.
 ```
 
-## Before starting <br>
-Create a database <br>
-```
-mysql
-create database laravelblog;
-exit;
-```
+
 
 Setup your database credentials in the .env file <br>
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=laravelblog
+DB_DATABASE=travelblog
 DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
 ```
@@ -45,5 +40,22 @@ Migrate the tables
 php artisan migrate
 ```
 
-## Contributing
+Setup your comment to use htmlspecial characters<br>
+```
+Install dependencies: composer require "laravelcollective/html"
+Include to config\app.php at "providers" area: Collective\Html\HtmlServiceProvider::class
+Include to config\app.php at "aliases" area: 'Form' => Collective\Html\FormFacade::class,
+                AND
+ 'Html' => Collective\Html\HtmlFacade::class,
+ ````
+
+##  Contributing
 Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+ For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+
+
+
+## License
+MIT
