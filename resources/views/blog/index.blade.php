@@ -38,16 +38,34 @@
         </a>
     </div>
 @endif
+@php
+    $colors = ['bg-pink-100', 'bg-indigo-100', 'bg-purple-200']; // Define an array of colors
+    $prevColor = null; // Initialize variable to store previously selected color
+@endphp
 
 @foreach ($posts as $post)
-    <div class="rounded-full md:rounded-full-lg ring-2 ring-blue-500 sm:grid  grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+@php
+do {
+    $randomColor = $colors[array_rand($colors)]; // Randomly select a color from the array
+} while ($randomColor === $prevColor); // Repeat if the color is the same as the previous one
+
+$prevColor = $randomColor; // Store the current color as the previous color for the next iteration
+@endphp
+    <div class="rounded-md mt-8 {{ $randomColor }} sm:grid  grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
+<<<<<<< Updated upstream
 
                 <img src="{{ asset('images/' . $post->image_path) }}" alt="">
 
 
+=======
+            <figure style="width:400px" class="md:ml-12">
+                <img src="{{ asset('images/' . $post->image_path) }}" alt="">
+                <figcaption class="ml-12">{{ $post->title }}</figcaption>
+            </figure>
+>>>>>>> Stashed changes
         </div>
-        <div>
+        <div class="md: mt-16">
             <h2 class="text-gray-700 font-bold text-5xl pb-4">
                 {{ $post->title }}
             </h2>
