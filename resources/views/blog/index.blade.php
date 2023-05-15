@@ -86,7 +86,7 @@ $prevColor = $randomColor; // Store the current color as the previous color for 
         <div>
             <figure style="width:400px" class="md:ml-12">
                 <img src="{{ asset('images/' . $post->image_path) }}" alt="">
-                <figcaption class="ml-12">{{ $post->title }}</figcaption>
+                <figcaption style="margin-top:0px" class="ml-12">{{ $post->title }}</figcaption>
             </figure>
         </div>
         <div class="md: mt-16">
